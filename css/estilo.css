@@ -1,0 +1,370 @@
+/*IMPORTANDO A FONTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&family=Montserrat&display=swap');
+
+/*RESET DA PAGINA*/
+
+* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		text-decoration: none;
+
+            }
+
+body {
+	font-size: 100%;
+}
+
+/*MENU PRINCIPAL*/
+
+#menu-h {
+		background-color: rgb(29 37 73);
+}
+
+ #menu-h ul {
+ 		list-style: none;
+		float: inline-start; 
+		text-align: center;
+		font-size: 20px;
+ }
+ 
+ #menu-h ul li {
+  		display: inline;
+		font-family: 'Montserrat', sans-serif;
+  }
+  
+  #menu-h ul li button {
+	width: 17em;
+	height: 40px;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2.0px;
+	color: #12170E;
+	background-color: #bdf447;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.784);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin: 1.0em;
+	font-family: 'Montserrat', sans-serif;
+	float:inline-start;
+}
+
+ #menu-h ul li a {
+		color: #fff;
+		padding: 15px;
+		text-decoration: none;
+		display: inline-block;
+		transition: background .3s;
+  }
+  
+  #menu-h ul li a:hover {
+		background-color: #8ce0a2;
+  }
+
+ /*PAGINA PRINCIPAL*/
+  h1 {
+	font-family: 'Gemunu Libre', sans-serif;
+	font-size: 80px;
+	color: #8ce0a2;
+	margin-top: 96px;
+  }
+
+  h2 {
+	font-family: 'Gemunu Libre', sans-serif;
+	color: #ffffff;
+	font-size: 23px;
+	margin-top: 36px;
+  }
+
+  .imagem-principal {
+	width: 420px;
+	padding: 0px;
+	margin-left: 40px;
+	margin-top: 0%;
+  }
+
+  .imagem-efeito {
+	width: 210px;
+	padding: 0px;
+	margin-top: 40px;
+  }
+
+  .sessao-1 {
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(29 37 73);
+  }
+
+
+  .bloco-2 {
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+   	background-color: rgb(29 37 73);
+  }
+
+  .botao-principal {
+	width: 20em;
+	height: 45px;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2.0px;
+	color: #12170E;
+	background-color: #bdf447;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.784);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+	margin: 2.5em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.botao-principal:hover {
+	background-color: #FFFF;
+	box-shadow: 0px 15px 20px rgba(23, 31, 17, 0.4);
+	color: #12170E;
+	transform: translateY(-7px);
+}
+
+.botao-1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #FFFF;
+	font-size: 20px;
+}
+
+.imagem-logo {
+	width: 70px;
+}
+
+.logo-equipe {
+	width: 180px;
+}
+
+.rodape {
+	display: block;
+	background-color: #d9e8dd;
+	text-align: center;
+    font-size: 13px;
+}
+
+.final-pag {
+	background-color: rgb(29 37 73);
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	height: 40px;
+	padding-top: 10px;
+}
+
+/*FAQ*/
+
+.faq-geral {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-direction: inline;
+	background-color: #d9e8dd;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+
+.faq-container {
+	display: flex;
+	flex-direction: row;
+	background-color: #d9e8dd;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	max-width: 850px;
+	padding: 30px;
+  }
+
+.faq-titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	padding: 10px 0px 5px 0px;
+	color: rgb(29 37 73);
+	margin-bottom: 15px;
+}
+
+.bloco-faq {
+	width: 500px;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+.imagem-faq {
+	width: 200px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.pergunta {
+	background-color: rgb(153, 167, 227);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	cursor: pointer;
+	padding: 15px;
+}
+
+.pergunta h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #12170E;
+}
+
+.pergunta span{
+	font-size: 25px;
+	color: #12170E;
+	transition: all 0.5s ease;
+}
+
+.resposta {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	max-height: 0px;
+	overflow: hidden;
+	text-align: justify;
+	opacity: 0;
+	transition: all 0.4s ease-out;
+	transform-origin: top;
+}
+
+.ativar{
+	max-height: 300px;
+	opacity: 1;
+	padding-bottom: 15px;
+	border-bottom: 2px solid whitesmoke;
+	margin-bottom: 10px;
+}
+
+.botao-faq {
+	width: 200px;
+	height: 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.0px;
+	color: #12170E;
+	background-color: #bdf447;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.784);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	margin: 1.0em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.botao-faq:hover {
+	background-color: #FFFF;
+	box-shadow: 0px 15px 20px rgba(23, 31, 17, 0.4);
+	color: #12170E;
+	transform: translateY(-7px);
+}
+
+/* PAGINA DE CRÉDITOS */
+.pag-creditos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(29 37 73);
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+/* PAGINA SOBRE */
+
+.pag-sobre {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: rgb(29 37 73);
+	text-align: justify;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
+.imagem-sobre {
+	width: 400px;
+	margin-left: 70px;
+	margin-right: 30px;
+	margin-top: 0%;
+}
+
+.sobre-container {
+	margin-right: 70px;
+}
+
+.sobre-container h1 {
+	font-size: 60px;
+	margin: auto;
+	padding-bottom: 30px;
+}
+
+/* PAGINA DE CONTATO*/
+
+/* PAGINA DE INSTRUÇÔES*/
+.pag-instrucoes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(29 37 73);
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
+
+/* PAGINA DE QUESTÔES*/
+
+.q-botao {
+	width: 200px;
+	height: 45px;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1.0px;
+	color: #12170E;
+	background-color: #bdf447;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 2px 10px rgba(255, 255, 255, 0.784);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	margin: 1.0em;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.q-botao:hover {
+	background-color: #FFFF;
+	box-shadow: 0px 15px 20px rgba(23, 31, 17, 0.4);
+	color: #12170E;
+}
+
+/* PAGINA DO GABARITO */
+
+.pag-gabarito {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(29 37 73);
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+}
